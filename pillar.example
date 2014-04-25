@@ -1,0 +1,9 @@
+enterprise-storage:
+  brick: /brick/1T/enterprise-storage
+  replica: True
+  count: 2
+  start: True
+  peers:
+    enterprise-controller01:
+      device: /dev/disk/by-uuid/UUID-HERE
+      mount_path: /brick/1T
