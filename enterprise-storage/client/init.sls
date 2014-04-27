@@ -11,7 +11,7 @@ glusterfs-client:
   file.directory:
     - user: root
     - group: enterprise
-    - mode: 775
+    - mode: 2775
     - mkdirs: True
   mount.mounted:
     - device: enterprise-storage:/enterprise-storage
